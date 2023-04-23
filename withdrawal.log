@@ -1,0 +1,92 @@
+14-11-2021 08:14:12, Withdrawal[2]: This withdrawal is going to cancel 
+
+14-11-2021 08:14:12, Withdrawal[2]: This withdrawal is canceled successfully 
+
+14-11-2021 08:16:28, Withdrawal[4]: This withdrawal is going to cancel 
+
+14-11-2021 08:16:28, Withdrawal[4]: This withdrawal is canceled successfully 
+
+29-11-2021 04:36:53, Withdrawal[21]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list' (SQL: insert into `withdrawals` (`wallet_id`, `address`, `amount`, `fees`, `transaction_hash`, `status`, `user_id`, `updated_at`, `created_at`) values (31, cccccccc, 5.00, 0.00000000, , 0, 11, 2021-11-29 04:36:53, 2021-11-29 04:36:53)) line: 671 file: /Users/masumbd/project/Nftzai/vendor/laravel/framework/src/Illuminate/Database/Connection.php 
+
+29-11-2021 04:46:17, Withdrawal[21]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list' (SQL: insert into `withdrawals` (`wallet_id`, `address`, `amount`, `fees`, `transaction_hash`, `status`, `user_id`, `updated_at`, `created_at`) values (31, cccccccc, 5.00, 0.00000000, , 0, 11, 2021-11-29 04:46:17, 2021-11-29 04:46:17)) line: 671 file: /Users/masumbd/project/Nftzai/vendor/laravel/framework/src/Illuminate/Database/Connection.php 
+
+29-11-2021 04:47:06, Withdrawal[21]: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list' (SQL: insert into `withdrawals` (`wallet_id`, `address`, `amount`, `fees`, `transaction_hash`, `status`, `user_id`, `updated_at`, `created_at`) values (31, cccccccc, 5.00, 0.00000000, , 0, 11, 2021-11-29 04:47:06, 2021-11-29 04:47:06)) line: 671 file: /Users/masumbd/project/Nftzai/vendor/laravel/framework/src/Illuminate/Database/Connection.php 
+
+29-11-2021 04:48:57, Withdrawal[21]: SQLSTATE[HY000]: General error: 1364 Field 'address_type' doesn't have a default value (SQL: insert into `withdrawals` (`wallet_id`, `address`, `amount`, `fees`, `transaction_hash`, `status`, `updated_at`, `created_at`) values (31, cccccccc, 5.00, 0.00000000, , 0, 2021-11-29 04:48:57, 2021-11-29 04:48:57)) line: 671 file: /Users/masumbd/project/Nftzai/vendor/laravel/framework/src/Illuminate/Database/Connection.php 
+
+29-11-2021 04:52:01, Withdrawal[5]: withdrawal table update successfully 
+
+29-11-2021 04:52:13, Withdrawal: ==========Start=============== 
+
+29-11-2021 04:52:13, Withdrawal[5]: Invalid Withdrawal Id 
+
+29-11-2021 04:52:13, Withdrawal: ==========END ERROR=============== 
+
+29-11-2021 04:59:24, Withdrawal[6]: withdrawal table update successfully 
+
+29-11-2021 04:59:34, Withdrawal[7]: withdrawal table update successfully 
+
+29-11-2021 04:59:43, Withdrawal[8]: withdrawal table update successfully 
+
+29-11-2021 05:08:11, Withdrawal[6]: This withdrawal is going to cancel 
+
+29-11-2021 05:08:11, Withdrawal[6]: This withdrawal is canceled successfully 
+
+29-11-2021 05:30:51, Withdrawal[9]: withdrawal table update successfully 
+
+29-11-2021 05:31:01, Withdrawal[10]: withdrawal table update successfully 
+
+29-11-2021 05:31:10, Withdrawal[11]: withdrawal table update successfully 
+
+29-11-2021 05:38:02, Withdrawal[12]: withdrawal table update successfully 
+
+29-11-2021 05:38:11, Withdrawal[13]: withdrawal table update successfully 
+
+29-11-2021 05:38:20, Withdrawal[14]: withdrawal table update successfully 
+
+23-12-2021 12:40:19, Withdrawal[2]: withdrawal table update successfully 
+
+23-12-2021 12:40:20, Withdrawal[3]: withdrawal table update successfully 
+
+23-12-2021 12:42:39, Withdrawal[4]: withdrawal table update successfully 
+
+23-12-2021 12:47:25, Withdrawal[5]: withdrawal table update successfully 
+
+23-12-2021 13:17:12, Withdrawal: ==========Start=============== 
+
+23-12-2021 13:17:12, Withdrawal[2]: Invalid Withdrawal Id 
+
+23-12-2021 13:17:12, Withdrawal: ==========END ERROR=============== 
+
+23-12-2021 13:20:03, Withdrawal: ==========Start=============== 
+
+23-12-2021 13:20:03, Withdrawal[5]: Invalid Withdrawal Id 
+
+23-12-2021 13:20:03, Withdrawal: ==========END ERROR=============== 
+
+23-12-2021 13:22:01, Withdrawal: ==========Start=============== 
+
+23-12-2021 13:22:01, Withdrawal[5]: Invalid Withdrawal Id 
+
+23-12-2021 13:22:01, Withdrawal: ==========END ERROR=============== 
+
+23-12-2021 13:25:13, Withdrawal: ==========Start=============== 
+
+23-12-2021 13:25:13, Withdrawal: {"id":5,"wallet_id":11,"address":"qwqeq","amount":"1.00000000","address_type":1,"receiver_wallet_id":null,"message":null,"fees":"0.00000000","transaction_hash":"","confirmations":0,"status":1,"in_queue":1,"doller":"0.00000000","withdraw_by":7,"created_at":"2021-12-23T12:47:25.000000Z","updated_at":"2021-12-23T13:25:02.000000Z","wallet":{"id":11,"user_id":7,"coin_id":1,"address":"3Q1P8NcLWtv5AxyPDjfd8tj1zEypCp2stA","status":1,"is_primary":0,"balance":"9991.99588800","on_hold":"0.00411200","created_at":"2021-12-06T12:33:29.000000Z","updated_at":"2021-12-23T13:15:16.000000Z"}} 
+
+23-12-2021 13:25:13, Withdrawal wallet: {"id":11,"user_id":7,"coin_id":1,"address":"3Q1P8NcLWtv5AxyPDjfd8tj1zEypCp2stA","status":1,"is_primary":0,"balance":"9991.99588800","on_hold":"0.00411200","created_at":"2021-12-06T12:33:29.000000Z","updated_at":"2021-12-23T13:15:16.000000Z"} 
+
+23-12-2021 13:25:13, Withdrawal coin: "BTC" 
+
+23-12-2021 13:25:13, Withdrawal amount: "1.00000000" 
+
+23-12-2021 13:25:13, Withdrawal[5]: Going to approve this request by admin 
+
+23-12-2021 13:25:13, Withdrawal[5]: Going to send from node 
+
+23-12-2021 13:25:13, Withdrawal[5]: Trying to get property 'user_id' of non-object 73 /Users/masumbd/project/Nftzai/app/Jobs/WithdrawalApproveJob.php 
+
+23-12-2021 13:25:13, Withdrawal: ==========END ERROR=============== 
+
+10-02-2022 10:53:11, Withdrawal[6]: withdrawal table update successfully 
+

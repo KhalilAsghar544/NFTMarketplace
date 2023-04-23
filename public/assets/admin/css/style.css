@@ -1,0 +1,242 @@
+.img-50 {
+    width: 50px;
+    height: 50px;
+}
+
+.img-width-120 {
+    width: 120px;
+}
+
+.width-100-per {
+    width: 100%;
+}
+
+.margin-left-20 {
+    margin-left: -20px;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+/* Zai Custom CSS Start */
+.nav-sidebar .nav-treeview {
+    padding-left: 10px;
+}
+.nav .nav-treeview .nav-link {
+    width: calc(250px - 2.2rem);
+}
+.nav .nav-treeview .nav-link > i {
+    position: relative;
+    top: -3px;
+    font-size: 11px!important;
+    margin-right: 0.1rem!important;
+}
+
+.user-list-delete-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 10px;
+}
+
+.user-list-delete-icon:hover {
+    color: #fff;
+}
+
+/* Login Page */
+.login-card-body, .register-card-body {
+    /* background-color: #fff;
+    border-top: 0; */
+    /* color: #666; */
+    padding: 60px;
+    border-radius: 12px;
+}
+.login-box, .register-box {
+    width: 100%;
+}
+
+
+/* New Admin Signin CSS */
+
+.main-content__area {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 50px 0;
+}
+.authentication__item {
+    padding: 60px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.authentication__item__logo {
+    margin-bottom: 25px;
+}
+.authentication__item__logo a img {
+    width: auto;
+    height: 25px;
+}
+.authentication__item__title h2 {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #273041;
+}
+.authentication__item__title h3 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #596680;
+}
+.input__group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.authentication__item__content .input__group label {
+    margin-bottom: 11px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #273041;
+}
+.authentication__item__content .input__group .input-overlay {
+    position: relative;
+}
+.authentication__item__content .input__group input {
+    padding: 13px 13px 13px 49px;
+    width: 100%;
+    background: #FAFBFC;
+    border: 1px solid #DFE3EB;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.authentication__item__content .input__group .input-overlay .overlay {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.authentication__item__content .input__group .input-overlay .overlay img {
+    width: 20px;
+    height: 20px;
+}
+.authentication__item__content .item__group__between {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.authentication__item__content .item__group__between .input__group {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.authentication__item__content .item__group__between .input__group input {
+    margin-right: 12px;
+    width: 16px;
+    height: 16px;
+}
+.authentication__item__content .item__group__between .input__group label {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #596680;
+}
+.authentication__item__content .input__group .input-overlay .password-visibility {
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.authentication__item__content .input__group .input-overlay .password-visibility::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 1px;
+    height: 100%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #8F95B2;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.authentication__item__content .input__group .input-overlay .password-visibility img {
+    width: 20px;
+    height: 20px;
+}
+.btn.btn-blue {
+    background-color: #4D88FF;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.btn {
+    padding: 13px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.mb-27 {
+    margin-bottom: 27px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+@media only screen and (max-width:480px) {
+    .authentication__item {
+        padding: 30px;
+    }
+}
+/* New Admin Signin CSS */
+
+
+
+/* Login Page */
+
+/* Zai Custom CSS End*/
